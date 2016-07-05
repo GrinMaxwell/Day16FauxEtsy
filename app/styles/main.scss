@@ -1,13 +1,52 @@
-section{
+body{
+  background-color: #F5F5F1;
+}
+
+header{
+  background-color: #FFFFFF;
+  h1{
+    color: #F56400;
+    display: inline-block;
+    margin: 1rem;
+    font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  }
+}
+
+.container{
+  width: 75%;
+  float: right;
+}
+a{
   display: inline-block;
-  width: 20%;
+  width: 25%;
   margin: 1rem;
+  border: 1px #E1E3DF solid;
+  text-decoration: none;
+  color: #494455;
+  &:visited, &:active, &:focus{
+    color: #494455;
+  }
   img{
     width: 100%;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
   }
   div{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    p{
+      top: -3px;
+      font-size: 0.7rem;
+      margin: 0;
+      padding: 3px;
+    }
     .title{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
     }
     .seller{
       color: #A09A9A;
@@ -15,5 +54,14 @@ section{
     .price{
       color: #78BF42;
     }
+  }
+}
+aside{
+  width: 20%;
+  float: left;
+  padding: 1rem;
+  form{
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
   }
 }
