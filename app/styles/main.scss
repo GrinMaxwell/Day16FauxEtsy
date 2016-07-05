@@ -1,0 +1,19 @@
+section{
+  display: inline-block;
+  width: 20%;
+  margin: 1rem;
+  img{
+    width: 100%;
+    overflow: hidden;
+  }
+  div{
+    .title{
+    }
+    .seller{
+      color: #A09A9A;
+    }
+    .price{
+      color: #78BF42;
+    }
+  }
+}
